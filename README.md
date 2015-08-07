@@ -21,10 +21,11 @@ help.
 * You need a `ruby` executable on your system. If in doubt, try `which ruby`.
 * You need a directory in your PATH you can stick this in. If you're not
   comfortable messing around with read-only system folders like `/usr/bin` or
-  `/usr/local/bin`, I'd recommend running this little one-liner:
+  `/usr/local/bin`, this little one-liner gets you set up the same way I am:
 ```sh
 mkdir ~/.bin && echo "export PATH=$PATH:~/.bin" >> ~/.bashrc
 ```
+Or zshrc or whatever.
 
 ##### Stuff You Do
 * Clone the repo wherever makes sense to you, and `cd` into that directory
