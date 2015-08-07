@@ -17,7 +17,11 @@ class NonCachingFileHandler < WEBrick::HTTPServlet::FileHandler
 
 end
 
-server = WEBrick::HTTPServer.new :Port => 1234
+# User can specify a specific port when invoking the script; otherwise, 1234 is
+# default.
+port_of_call = ARGV.first || 1234
+
+server = WEBrick::HTTPServer.new :Port => port_of_call
 server.mount "/", NonCachingFileHandler , Dir.pwd
 trap('INT') { server.stop }
 server.start
