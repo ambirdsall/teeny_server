@@ -23,7 +23,7 @@ help.
   comfortable messing around with read-only system folders like `/usr/bin` or
   `/usr/local/bin`, this little one-liner gets you set up the same way I am:
 ```sh
-mkdir ~/.bin && echo "export PATH=$PATH:~/.bin" >> ~/.bashrc
+mkdir ~/.bin && PATH=$PATH:~/.bin && echo "export PATH=$PATH:~/.bin" >> ~/.bashrc
 ```
 Or zshrc or whatever.
 
