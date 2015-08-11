@@ -33,4 +33,6 @@ Or bashrc or whatever.
 * Symlink to the script from somewhere in your $PATH with `ln -s /absolute/path/to/teeny_server/serve ~/.bin`.
 * Have yourself a nice day.
 
-The whole script was (only barely) adapted from [a blog post](http://tobyho.com/2009/09/16/http-server-in-5-lines-with/).
+### BIBLIOGRAPHY
+
+[a blog post](http://tobyho.com/2009/09/16/http-server-in-5-lines-with/).
