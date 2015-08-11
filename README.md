@@ -30,7 +30,7 @@ Or bashrc or whatever.
 ##### Stuff You Do
 * Clone the repo wherever makes sense to you, and `cd` into that directory
 * Make the script executable with `chmod +x serve`
-* Symlink to the script from somewhere in your $PATH with `ln -s absolute/path/to/teeny_server/serve ~/.bin`.
+* Symlink to the script from somewhere in your $PATH with `ln -s /absolute/path/to/teeny_server/serve ~/.bin`.
 * Have yourself a nice day.
 
 The whole script was (only barely) adapted from [a blog post](http://tobyho.com/2009/09/16/http-server-in-5-lines-with/).
