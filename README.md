@@ -23,9 +23,9 @@ help.
   comfortable messing around with read-only system folders like `/usr/bin` or
   `/usr/local/bin`, this little one-liner gets you set up the same way I am:
 ```sh
-mkdir ~/.bin && PATH=$PATH:~/.bin && echo "export PATH=$PATH:~/.bin" >> ~/.bashrc
+mkdir ~/.bin && PATH=$PATH:~/.bin && echo "export PATH=$PATH:~/.bin" >> ~/.zshrc
 ```
-Or zshrc or whatever.
+Or bashrc or whatever.
 
 ##### Stuff You Do
 * Clone the repo wherever makes sense to you, and `cd` into that directory
