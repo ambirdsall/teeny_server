@@ -2,10 +2,11 @@
 
 When I do any small-scale front-end work without the benefit of some framework's
 prewritten server, it's handy to be able to run a little non-caching server that
-pops your current directory onto localhost. This is a short ruby script to do
-exactly that. Just run `serve` from the command line in your project directory,
-and you'll be up and running. To stop the server, send it an interrupt signal
-with control-c.
+pops your current directory onto localhost. You don't need to use a wicked large
+framework just for its server, and you avoid annoying cross-origin errors. This
+is a short ruby script to do exactly that. Just run `serve` from the command
+line in your project directory, and you'll be up and running. To stop the
+server, send it an interrupt signal with control-c.
 
 The default server is at port 1234, because typing that into a URL bar is really
 easy on the fingers, but if you provide a different port as an argument to the
